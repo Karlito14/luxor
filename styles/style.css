@@ -14,6 +14,7 @@
 html,
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #eee;
 }
 
 ul,
@@ -35,4 +36,11 @@ h4 {
 
 p {
   margin-bottom: 0.8rem;
+}
+
+.separator {
+  margin: 1rem auto;
+  height: 2px;
+  width: 50px;
+  background-color: var(--color-yellow);
 }

@@ -1,0 +1,35 @@
+.offer {
+  padding: 10rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container-offer {
+  max-width: 1200px;
+}
+
+.container-offer > h2 {
+  margin-bottom: 2rem;
+}
+
+.offer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer-list-item {
+  border: 1px solid #ddd;
+  background-color: white;
+  margin: 1rem;
+}
+
+.offer-list-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.section-info-house {
+  padding: 2rem;
+  text-align: center;
+}
