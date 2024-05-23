@@ -44,3 +44,7 @@ p {
   width: 50px;
   background-color: var(--color-yellow);
 }
+
+.strong {
+  color: var(--color-yellow);
+}

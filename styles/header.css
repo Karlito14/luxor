@@ -68,10 +68,6 @@
   margin-bottom: 2rem;
 }
 
-.vp-content-title strong {
-  color: var(--color-yellow);
-}
-
 .vp-content-paragraph {
   font-size: 1.8rem;
   letter-spacing: 1px;

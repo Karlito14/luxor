@@ -1,0 +1,25 @@
+.team-section {
+  display: flex;
+}
+
+.team-img {
+  width: 50%;
+}
+
+.team-text {
+  color: white;
+  background-color: var(--color-grey);
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team-text h2 {
+  margin-bottom: 1.5rem;
+}
+
+.team-text p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
