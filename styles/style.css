@@ -1,0 +1,38 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* GENERAL */
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+.logo {
+    font-family: "Liu Jian Mao Cao", cursive;
+}
