@@ -8,7 +8,9 @@
       content="Luxor est une agence immobilière de luxe qui vous propose ce qu'il se fait de mieux sur Paris, la ville lumière."
     />
     <title>Agence Luxor</title>
+    <link rel="icon" type="image/png" href="./images/crown.png" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
     <link
       rel="stylesheet"
       media="only screen and (max-width: 768px)"
@@ -17,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900&display=swap"
       rel="stylesheet"
     />
     <script
@@ -25,5 +27,33 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container-top">
+      <header class="header">
+        <h2 class="logo">
+          <i class="fa-solid fa-crown"></i>
+          <a href="#" class="logo-title">LUXOR</a>
+        </h2>
+        <nav class="nav">
+          <ul class="nav-ul">
+            <li class="nav-li"><a href="#">Nos offres</a></li>
+            <li class="nav-li"><a href="#">Notre équipe</a></li>
+            <li class="nav-li"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="vp-section">
+        <div class="vp-content">
+          <h1 class="vp-content-title">
+            Un <strong>immobilier</strong> d'exception pour des clients
+            exceptionnels
+          </h1>
+          <p class="vp-content-paragraph">
+            Retrouvez des appartement et des maisons de luxe uniques sur Paris,
+            la ville <span>lumière</span>
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
