@@ -1,61 +1,61 @@
 .contact-section {
-    padding: 5rem 3rem;
-    display: flex;
-    justify-content: center;
-    background-color: #333;
+  padding: 5rem 3rem;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
 }
 
 .container-contact {
-    max-width: 600px;
-    width: 100%;
-    text-align: center;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-form input {
-    border: none;
-    background-color: transparent;
-    text-align: center;
-    font-size: 1rem;
-    border-bottom: 1px solid #555;
-    padding: 1rem;
-    margin: 1rem;
-    color: white;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  font-size: 1rem;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
 }
 
 .contact-form input:focus {
-    outline: none;
+  outline: none;
 }
 
 .form-button {
-    border: none;
-    padding: 1rem 2rem;
-    background-color: var(--color-yellow);
-    border-radius: 30px;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1rem;
-    color: white;
-    cursor: pointer;
-    margin: 2rem;
-    transition: all 0.3s;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: var(--color-yellow);
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  margin: 2rem;
+  transition: all 0.3s;
 }
 
 .form-button:hover {
-    background-color: #8b7109;
+  background-color: #8b7109;
 }
 
 .footer {
-    background-color: #444;
-    color: white;
-    text-align: center;
-    padding: 3rem 1rem;
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
 }
 
 .footer p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }

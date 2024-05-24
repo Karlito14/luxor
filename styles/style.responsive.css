@@ -1,0 +1,88 @@
+/* HEADER */
+.header {
+  flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 1.5rem;
+}
+
+.vp-content-title {
+  font-size: 2rem;
+}
+
+.vp-content-paragraph {
+  font-size: 1.2rem;
+}
+
+/* OFFER */
+.offer {
+  padding: 4rem 1.8rem;
+}
+
+.offer-list {
+  flex-direction: column;
+}
+
+.offer-list-item img {
+  height: 230px;
+}
+
+.section-info-house {
+  padding: 1rem;
+}
+
+/* TEAM */
+.team-section {
+  flex-direction: column-reverse;
+}
+
+.team-img {
+  width: 100%;
+}
+
+.team-text {
+  padding: 3rem;
+}
+
+/* TESTIMONIALS */
+.testimonials-section {
+  padding: 3rem 1.5rem;
+}
+
+.testimonials-item {
+  flex-direction: column-reverse;
+  padding: 1.5rem;
+}
+
+.testimonials-item:nth-child(2) {
+  flex-direction: column;
+}
+
+.testimonials-item-profil {
+  margin: 1rem;
+}
+
+/* FOOTER */
+.contact-section {
+  padding: 3rem 1.7rem;
+}
+
+.footer {
+  padding: 2rem 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    width: 100%;
+  }
+  .nav-ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-li {
+    padding: 0.7rem;
+    border-bottom: 1px solid #555;
+  }
+}
