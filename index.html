@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./styles/offer.css" />
     <link rel="stylesheet" href="./styles/team.css" />
     <link rel="stylesheet" href="./styles/testimonials.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <link
       rel="stylesheet"
       media="only screen and (max-width: 768px)"
@@ -41,7 +42,7 @@
           <ul class="nav-ul">
             <li class="nav-li"><a href="#offer">Nos offres</a></li>
             <li class="nav-li"><a href="#team">Notre équipe</a></li>
-            <li class="nav-li"><a href="#">Contact</a></li>
+            <li class="nav-li"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -178,5 +179,21 @@
         </div>
       </section>
     </main>
+    <section class="contact-section" id="contact">
+      <div class="container-contact">
+        <h2>Pour nous <strong class="strong">contacter</strong></h2>
+        <form action="#" class="contact-form">
+          <input required type="text" name="name" id="name" autocomplete="off" placeholder="Nom">
+          <input required type="email" name="email" id="email" placeholder="Email" autocomplete="off">
+          <input required type="text" name="message" id="message" placeholder="Votre message ..." autocomplete="off">
+          <div>
+            <button type="submit" class="form-button">Soumettre</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>Copyright &#xA9; 2024 Luxor, Inc.</p>
+    </footer>
   </body>
 </html>
